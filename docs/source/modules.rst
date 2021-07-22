@@ -5,3 +5,4 @@ PythonPlotting
    :maxdepth: 4
 
    fitness_comp
+   foo
