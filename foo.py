@@ -1,5 +1,7 @@
 class Foo:
     """This is the Foo class.
+    Real time doc update check.
+    
     Create powerful Foo objects for generating foobars
     Attributes
     ----------
