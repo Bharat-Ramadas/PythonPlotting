@@ -1,10 +1,10 @@
 """
-Autodocs trial
+Autodocs trial2
 """
 # autodocs fails on ReadTheDocs if I have any import statement like below"
 # from typing import Protocol, runtime_checkable, Any, List
 # from abc import abstractmethod, ABC
-# from copy import deepcopy
+from copy import deepcopy
 import os
 import sys
 
