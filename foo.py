@@ -1,3 +1,7 @@
+"""
+Checking first line of docs
+"""
+
 class Foo:
     """This is the Foo class.
     Real time doc update check.
