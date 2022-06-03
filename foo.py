@@ -1,17 +1,8 @@
 """
-Kobin class
-===========
-The Kobin instance are callable WSGI Application.
-Usage
------
-.. code-block:: python
-   from kobin import Kobin, Response
-   app = Kobin()
-   @app.route('/')
-   def index() -> Response:
-       return Response('Hello World')
+Autodocs trial
 """
-import numpy as np
+# autodocs fails on ReadTheDocs if I have any import statement like below"
+import os
 
 
 class Foo:
