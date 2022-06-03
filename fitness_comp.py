@@ -6,9 +6,18 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mtick
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 
-def dummy:
-    """Dummy function to verify function autodocs on RTD"""
-    pass
+class MachineDesign():
+    """Class representing a complete machine design, includes machine physical description and operating conditions.
+    Attributes:
+        machine: Holds information on machine dimensions, materials, and nameplate specs
+        
+        settings: Operating conditions of machine. Can include speed, current, expected power / torque etc.
+    """
+
+    def __init__(self, machine, settings):
+        self.machine = machine
+        self.settings = settings
+        
 plt.rcParams['mathtext.fontset'] = 'stix' # 'cm'
 plt.rcParams["font.family"] = "Times New Roman"
 
