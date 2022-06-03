@@ -1,8 +1,8 @@
 """
 Checking first line of docs
 """
+import numpy as np
 
-# import numpy as np
 
 class Foo:
     """This is the Foo class.
