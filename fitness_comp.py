@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mtick
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 
-class MachineDesign():
+class MachineDesign:
     """Class representing a complete machine design, includes machine physical description and operating conditions.
     Attributes:
         machine: Holds information on machine dimensions, materials, and nameplate specs
