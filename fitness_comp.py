@@ -6,6 +6,9 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mtick
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 
+def dummy:
+    """Dummy function to verify function autodocs on RTD"""
+    pass
 plt.rcParams['mathtext.fontset'] = 'stix' # 'cm'
 plt.rcParams["font.family"] = "Times New Roman"
 
