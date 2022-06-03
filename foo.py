@@ -1,5 +1,15 @@
 """
-Checking first line of docs
+Kobin class
+===========
+The Kobin instance are callable WSGI Application.
+Usage
+-----
+.. code-block:: python
+   from kobin import Kobin, Response
+   app = Kobin()
+   @app.route('/')
+   def index() -> Response:
+       return Response('Hello World')
 """
 import numpy as np
 
