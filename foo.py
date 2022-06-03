@@ -1,8 +1,8 @@
 """
-Autodocs3 trial
+Autodocs1 trial
 """
 
-from typing import Protocol, runtime_checkable, Any, List # causes autodoc to fail of ReadTheDocs
+import numpy
 from abc import abstractmethod, ABC
 from copy import deepcopy
 import os
