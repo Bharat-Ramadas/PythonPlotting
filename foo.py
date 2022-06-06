@@ -1,5 +1,5 @@
 """
-Autodocs5 trial
+Autodocs trial
 """
 
 from typing import Protocol, runtime_checkable, Any, List
