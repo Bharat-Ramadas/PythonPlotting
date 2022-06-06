@@ -43,7 +43,6 @@ extensions = [
     'sphinx.ext.napoleon',
 ]
 autodoc_mock_imports  = ["pygmo", "numpy", "pandas", "pickle"]
-from typing import Protocol, runtime_checkable, Any, List
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
