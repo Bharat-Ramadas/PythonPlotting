@@ -2,7 +2,7 @@
 Autodocs5 trial
 """
 
-# from typing import Protocol, runtime_checkable, Any, List
+from typing import Protocol, runtime_checkable, Any, List
 from abc import abstractmethod, ABC
 from copy import deepcopy
 import os
