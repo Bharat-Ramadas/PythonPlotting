@@ -16,7 +16,6 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('../..'))
 
-import numpy
 # -- Project information -----------------------------------------------------
 
 project = 'PythonPlotting'
@@ -43,6 +42,7 @@ extensions = [
     'sphinx.ext.githubpages',
     'sphinx.ext.napoleon',
 ]
+autodoc_mock_imports = ["numpy"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
