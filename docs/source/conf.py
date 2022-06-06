@@ -16,6 +16,12 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('../..'))
 
+import mock
+ 
+MOCK_MODULES = ["typing", "pygmo", "numpy", "pandas", "pickle"]
+for mod_name in MOCK_MODULES:
+sys.modules[mod_name] = mock.Mock()
+
 # -- Project information -----------------------------------------------------
 
 project = 'PythonPlotting'
@@ -42,7 +48,7 @@ extensions = [
     'sphinx.ext.githubpages',
     'sphinx.ext.napoleon',
 ]
-autodoc_mock_imports  = ["typing.Protocol", "typing.runtime_checkable", "typing.Any", "typing.List", "pygmo", "numpy", "pandas", "pickle"]
+# autodoc_mock_imports  = ["typing.Protocol", "typing.runtime_checkable", "typing.Any", "typing.List", "pygmo", "numpy", "pandas", "pickle"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
