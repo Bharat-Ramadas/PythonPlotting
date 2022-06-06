@@ -42,7 +42,7 @@ extensions = [
     'sphinx.ext.githubpages',
     'sphinx.ext.napoleon',
 ]
-autodoc_mock_imports  = ["typing", "Protocol", "runtime_checkable", "Any", "List", "pygmo", "numpy", "pandas", "pickle"]
+autodoc_mock_imports  = ["typing", "pygmo", "numpy", "pandas", "pickle"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
