@@ -1,13 +1,17 @@
 """
-Autodocs1 trial
+Autodocs4 trial
 """
 
-import numpy
+from typing import Protocol, runtime_checkable, Any, List
 from abc import abstractmethod, ABC
 from copy import deepcopy
 import os
 import sys
 
+import pygmo as pg
+import pandas as pd
+import numpy as np
+import pickle
 
 class Foo:
     """This is the Foo class.
