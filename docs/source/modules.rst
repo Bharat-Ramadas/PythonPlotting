@@ -1,8 +1,8 @@
-PythonPlotting
-==============
+eMach
+=====
 
 .. toctree::
    :maxdepth: 4
 
-   fitness_comp
-   foo
+   mach_eval
+   mach_opt
